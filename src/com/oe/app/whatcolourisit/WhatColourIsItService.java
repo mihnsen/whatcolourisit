@@ -75,7 +75,7 @@ public class WhatColourIsItService extends WallpaperService {
 				if (canvas != null) {
 					
 					Calendar c = Calendar.getInstance();
-					int hours = c.get(Calendar.HOUR);
+					int hours = c.get(Calendar.HOUR_OF_DAY);
 					int minutes = c.get(Calendar.MINUTE);
 					int seconds = c.get(Calendar.SECOND);
 					
